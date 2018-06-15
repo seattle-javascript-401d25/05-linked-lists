@@ -21,7 +21,7 @@
   * **__test__/** -- directory for holding your programs unit and integration tests
 
 #### Testing  
-  * write at least three test assertions for each method of your Linked List class
+  * write at least two test assertions for each method of your Linked List class
   * organize your tests into appropriate describe/it blocks for test output readability
 
 ####  Documentation  
