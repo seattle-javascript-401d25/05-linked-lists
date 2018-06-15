@@ -41,4 +41,4 @@
 
 ## Bonus Points (not eligible on resubmits):
   * 1pt: test your Node class as well with at least two test assertions, one for a successful instantiation and another for unsuccessful instantiation
-  * 2pts: refactor your Linked List class so that `push()` and `pop()` both have a constant / O(1) run time
+  * 2pts: refactor your Linked List class so `pop()` can have a constant / O(1) run time.
