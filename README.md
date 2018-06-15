@@ -35,7 +35,7 @@
 #### Feature Tasks  
   * implement a `LinkedList` class which will use a `Node` class that you have also defined
   * implement a `pop()` on the LinkedList prototype
-	* implement a `remove(value)` on the prototype
+  * implement a `remove(value)` on the prototype
   * implement `map()` _or_ `reduce()` as pure methods on the LinkedList prototype
   * in comments above or within each function, note the Big-O time AND space complexity
 
