@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) lab 05 - Linked List Data Structure
+[![Build Status](https://travis-ci.org/JPLaw/05-linked-lists.svg?branch=master)](https://travis-ci.org/JPLaw/05-linked-lists)lab 05 - Linked List Data Structure
 ====
 
 ## To Submit this Assignment
