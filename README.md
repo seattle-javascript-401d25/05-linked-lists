@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/DevinTyler26/05-linked-lists.svg?branch=master)](https://travis-ci.org/DevinTyler26/05-linked-lists)
 ![cf](http://i.imgur.com/7v5ASc8.png) lab 05 - Linked List Data Structure
 ====
 
@@ -42,3 +43,17 @@
 ## Bonus Points (not eligible on resubmits):
   * 1pt: test your Node class as well with at least two test assertions, one for a successful instantiation and another for unsuccessful instantiation
   * 2pts: refactor your Linked List class so `pop()` can have a constant / O(1) run time.
+
+## Devin's Documentation
+
+  * pop() will iterate through the linked list until it hits the end of the list then it will remove the last node
+  * map() will multiple each node value by the past in multiplier
+  * insertAtHead(val) inserts a new head (node) onto the linked list
+  * insertAtTail(val) inserts a new tail (node )onto the linked list
+  * findNode(val) will iterate through the linked list until it finds the node base on the value passed in
+  * remove(val) will iterate through the linked list until it finds the node base on the value passed in then it will remove it
+
+To install
+  * clone repo onto your local machine
+  * then run "npm i" to download all dependencies
+  * go to your terminal and run "npm run test" in the root of the cloned repo
