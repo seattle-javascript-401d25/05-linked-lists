@@ -9,6 +9,9 @@
     "testWatch": "jest --coverage --watchAll",
     "test-nolint": "jest --coverage"
   },
+  "presets": [
+    "env"
+  ],
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-register": "^6.26.0",
@@ -30,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/DevinTyler26/05-linked-lists/issues"
   },
-  "homepage": "https://github.com/DevinTyler26/05-linked-lists#readme"
+  "homepage": "https://github.com/DevinTyler26/05-linked-lists#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
 }
