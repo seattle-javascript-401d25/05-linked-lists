@@ -7,12 +7,18 @@ module.exports = class LinkedList {
     this.head = null;
   }
 
+  // this is O(1) because we know where the head is so we dont have to move through the list
+  // space complexity is O(n) because we are adding more to the linked list
+
   insertAtHead(val) {
     const node = new Node(val);
     node.next = this.head;
     this.head = node;
     return this;
   }
+
+  // moving through the linked list is O(n) but adding the specific item is O(1)
+  // space complexity is O(n) because we are adding more to the linked list
 
   insertAtTail(val) {
     const node = new Node(val);
@@ -27,6 +33,10 @@ module.exports = class LinkedList {
     currNode.next = node;
     return this;
   }
+
+  // moving through the linked list is O(n) but removing the specific item is O(1)
+  /* space complexity is O(1) because we are not taking up any more space in the 
+  code, we are modifying the same list */
 
   findNode(val) {
     if (!this.head) {
@@ -44,6 +54,10 @@ module.exports = class LinkedList {
     }
     return null;
   }
+
+  // moving through the linked list is O(n) but removing the specific item is O(1)
+  /* space complexity is O(1) because we are not taking up any more space in 
+  the code, we are modifying the same list */
 
   remove(val) {
     if (this.head.value === val) {
@@ -64,6 +78,10 @@ module.exports = class LinkedList {
     }
   }
 
+  // moving through the linked list is O(n) but removing the item is O(1)
+  /* space complexity is O(1) because we are not taking up any 
+  more space in the code, we are modifying the same list */
+
   pop() {
     let prevNode = this.head;
     let currNode = prevNode.next;
@@ -78,6 +96,10 @@ module.exports = class LinkedList {
       }
     }
   }
+
+  // moving through and modifying the linked list in  map is O(n)
+  /* space complexity is O(1) because we are not taking up any 
+  more space in the code, we are modifying the same list */
 
   map(val) {
     let currNode = this.head;
