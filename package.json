@@ -1,0 +1,23 @@
+{
+  "name": "05-linked-lists",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/JPLaw/05-linked-lists.svg?branch=master)](https://travis-ci.org/JPLaw/05-linked-lists)lab 05 - Linked List Data Structure ====",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPLaw/05-linked-lists.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPLaw/05-linked-lists/issues"
+  },
+  "homepage": "https://github.com/JPLaw/05-linked-lists#readme"
+}
