@@ -4,7 +4,7 @@
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) lab 05 - Linked List Data Structure ====",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && jest --coverage",
+    "test": "jest --coverage",
     "lint": "eslint .",
     "testWatch": "jest --coverage --watchAll",
     "test-nolint": "jest --coverage"
